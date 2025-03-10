@@ -1,62 +1,56 @@
 import "./Header.css";
+import LogoImage from "../LogoImage/LogoImage";
 
-import React from 'react'
-
-function HeaderTop () {
+export default function Header() {
   return (
-    <div className="header-top">
-      <HeaderLogo />
-      <HeaderButton />
+    <header className="header">
+      <TopHeader />
+      <HeaderNavBar />
+    </header>
+  );
+}
+
+function TopHeader() {
+  return (
+    <div className="top-header">
+      <Logo />
+      <Button />
     </div>
-  )
+  );
 }
 
-function HeaderLogo () {
-  return (
-    <p className="logo-text"> <span>zaph</span> tours</p>
-  )
+function Logo() {
+  return <h1 className="logo-text">zaph tours</h1>;
 }
 
-function HeaderButton () {
+function Button() {
   return (
-    <div className="header-button">
-      <button>contact us</button>
+    <a href="#" className="header-button">
+      Contact Us
+    </a>
+  );
+}
+
+function HeaderNavBar() {
+  return (
+    <div className="nav-bar">
+      <LogoImage />
+      <nav className="header-nav">
+        <ol className="header-nav-list">
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">Destination</a>
+          </li>
+          <li>
+            <a href="">Trip Types</a>
+          </li>
+          <li>
+            <a href="">Contact</a>
+          </li>
+        </ol>
+      </nav>
     </div>
-  )
+  );
 }
-
-
-
-
-
-
-
-function HeaderNavigation () {
-  return (
-    <div className="header-navigation">
-      <HeaderIcons />
-    </div>
-  )
-}
-
-function HeaderIcons({icon, text}) {
-  return (
-    <div className="header-icons">
-      {icon}
-      
-    </div>
-  )
-}
-
-function NavigationLinks () {}
-
-function Header() {
-  return (
-    <div>
-      <HeaderTop />
-      <HeaderNavigation />
-    </div>
-  )
-}
-
-export default Header

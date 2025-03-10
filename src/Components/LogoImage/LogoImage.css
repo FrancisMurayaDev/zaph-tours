@@ -1,0 +1,13 @@
+.logo-image-container {
+  /* margin-left: 3rem; */
+}
+
+.logo-image {
+  width: 10rem;
+}
+
+@media screen and (max-width: 34.5em) {
+  .logo-image {
+    display: none;
+  }
+}

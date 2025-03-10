@@ -1,24 +1,100 @@
-.header-top {
+.top-header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  background-color: var(--color-white-light);
-  
+  justify-content: center;
+  gap: 60rem;
+  background-color: var(--color-secondary-light);
+  padding: 1.5rem 0;
+}
+
+@media screen and (max-width: 69.44em) {
+  .top-header {
+    gap: 30rem;
+  }
+}
+
+@media screen and (max-width: 50.63em) {
+  .top-header {
+    gap: 10rem;
+  }
+}
+
+@media screen and (max-width: 31.8em) {
+  .top-header {
+    flex-direction: column;
+    gap: 3rem;
+  }
 }
 
 .logo-text {
-  font-size: 3.5rem;
-  font-weight: 600;
-  text-transform: capitalize;
+  color: black;
+  text-transform: uppercase;
+  word-spacing: 1rem;
+  letter-spacing: 1rem;
 }
 
+@media screen and (max-width: 52.7em) {
+  .logo-text {
+    word-spacing: none;
+    letter-spacing: none;
+    font-size: 2rem;
+  }
+}
 
-.header-button button {
-  border: none;
-  outline: none;
-  text-transform: capitalize;
-  font-size: 1.5rem;
-  font-weight: 800;
-  background-color: var(--color-secondary-lighter);
-  border-radius: 10px;
+.header-button {
+  background-color: red;
+  color: white;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  border-radius: 15px;
+  text-transform: uppercase;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  padding-inline: 5rem;
+
+  box-shadow: -4px 13px 20px -16px rgba(81, 57, 57, 0.74);
+  -webkit-box-shadow: -4px 13px 20px -16px rgba(81, 57, 57, 0.74);
+  -moz-box-shadow: -4px 13px 20px -16px rgba(81, 57, 57, 0.74);
+}
+
+@media screen and (max-width: 43.31em) {
+  .nav-bar {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 34.5em) {
+  .nav-bar {
+    padding-right: 1rem;
+    flex-direction: column;
+  }
+}
+
+/* .header-nav {
+  margin-right: 15rem;
+} */
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 4.5rem;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 30.68em) {
+  .header-nav-list {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+}
+
+.header-nav-list li a {
+  font-weight: 700;
+  color: black;
 }

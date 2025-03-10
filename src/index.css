@@ -1,13 +1,13 @@
 :root {
-  --color-primary: #C1D8C3;
-  --color-secondary: #6A9C89;
-  --color-secondary-light: #C1D8C3;
-  --color-secondary-lighter: #FFF5E4;
+  --color-primary: #c1d8c3;
+  --color-secondary: #6a9c89;
+  --color-secondary-light: #c1d8c3;
+  --color-secondary-lighter: #fff5e4;
   --color-black-dark: #000000;
   --color-black-light: #434345;
   --color-black-lighter: #5e535e;
   --color-white-light: rgb(241, 231, 231);
-  }
+}
 
 * {
   margin: 0;
@@ -25,10 +25,11 @@ body {
   font-family: "Roboto Flex", sans-serif;
 }
 
- a {
+a {
   text-decoration: none;
- }
+}
 
- ol, ul {
+ol,
+ul {
   list-style: none;
- }
+}
