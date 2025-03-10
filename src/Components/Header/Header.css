@@ -1,0 +1,24 @@
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--color-white-light);
+  
+}
+
+.logo-text {
+  font-size: 3.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+
+.header-button button {
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 800;
+  background-color: var(--color-secondary-lighter);
+  border-radius: 10px;
+}

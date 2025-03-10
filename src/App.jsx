@@ -1,8 +1,13 @@
-import React from "react"
-function App () {
-  return (<React.Fragment>
-  <h1>Welcome to ZAPH Tours</h1>
-  </React.Fragment>)
+import {Fragment} from 'react'
+import Header from './Components/Header/Header'
+
+function App() {
+  return (
+    <Fragment>
+      <Header />      
+      
+    </Fragment>
+  )
 }
 
-export default App;
+export default App
