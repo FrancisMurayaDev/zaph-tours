@@ -16,6 +16,14 @@
   letter-spacing: 1rem;
 }
 
+@media screen and (max-width: 55.75em) {
+  .section-title {
+    letter-spacing: normal;
+    font-weight: 600;
+    font-size: 5rem;
+  }
+}
+
 @media screen and (max-width: 31.19em) {
   .section-title {
     letter-spacing: normal;
@@ -29,8 +37,8 @@
   font-size: 3rem;
 }
 
-@media screen and (max-width: 31.19em) {
+@media screen and (max-width: 4.75em) {
   .section-text {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }

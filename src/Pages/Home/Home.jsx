@@ -2,6 +2,7 @@ import Video from "../../../public/cheetah-video.mp4";
 import "./Home.css";
 import { Fragment } from "react";
 import SectionHeader from "../../Components/SectionHeader/SectionHeader";
+import FeaturedDestinationCard from "../../Components/FeaturedDestinationCard/FeaturedDestinationCard";
 
 function Home() {
   return (
@@ -9,7 +10,11 @@ function Home() {
       <HeroSection />
       <SectionHeader h2="About Us" text="A Community of Luxury Travelers" />
       <AboutUsDescription />
-      <SectionHeader h2="Features Destination" text="Amenities, Attractions and Unique Features" />
+      <SectionHeader
+        h2="Features Destination"
+        text="Amenities, Attractions and Unique Features"
+      />
+      <FeaturedDestinationCard />
     </Fragment>
   );
 }

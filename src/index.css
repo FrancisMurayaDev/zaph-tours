@@ -2,11 +2,11 @@
   --color-primary: #086710;
   --color-secondary: #6a9c89;
   --color-secondary-light: #c1d8c3;
-  --color-secondary-lighter: #f4efe9ac;
+  --color-secondary-lighter: #fdf2e1ac;
   --color-black-dark: #000000;
   --color-black-light: #434345;
   --color-black-lighter: #5e535e;
-  --color-white-light: rgb(248, 246, 246);
+  --color-white-light: rgb(224, 80, 80);
 }
 
 * {
