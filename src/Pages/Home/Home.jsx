@@ -4,6 +4,7 @@ import { Fragment } from "react";
 import SectionHeader from "../../Components/SectionHeader/SectionHeader";
 import FeaturedDestinationCard from "../../Components/FeaturedDestinationCard/FeaturedDestinationCard";
 import TestimonialStats from "../../Components/TestimonialStats/TestimonialStats";
+import SatisfiedCustomers from "../../Components/SatisfiedCustomers/SatisfiedCustomers";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
         <TestimonialStats stats={"20+"} satisfied={"companies"} />
         <TestimonialStats stats={"100+"} satisfied={"travel trips"} />
       </div>
+      <SatisfiedCustomers />
     </Fragment>
   );
 }
