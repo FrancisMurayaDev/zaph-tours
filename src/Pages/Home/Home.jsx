@@ -3,6 +3,7 @@ import "./Home.css";
 import { Fragment } from "react";
 import SectionHeader from "../../Components/SectionHeader/SectionHeader";
 import FeaturedDestinationCard from "../../Components/FeaturedDestinationCard/FeaturedDestinationCard";
+import TestimonialStats from "../../Components/TestimonialStats/TestimonialStats";
 
 function Home() {
   return (
@@ -15,6 +16,13 @@ function Home() {
         text="Amenities, Attractions and Unique Features"
       />
       <FeaturedDestinationCard />
+      <SectionHeader h2={"Testimonials"} text={"Explore Success Stories"}/>
+
+      <div className="testimonials">
+      <TestimonialStats stats={"100+"} satisfied={"satisfied customers"}/>
+      <TestimonialStats stats={"20+"} satisfied={"companies"} />
+      <TestimonialStats stats={"100+"} satisfied={"travel trips"} />
+      </div>
     </Fragment>
   );
 }

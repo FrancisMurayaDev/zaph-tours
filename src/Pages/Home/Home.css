@@ -118,3 +118,23 @@
   border: 1px solid var(--color-primary);
   border-radius: 10rem;
 }
+
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2rem 4rem;
+}
+
+@media screen and (max-width: 43.5em) {
+  .testimonials {
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width:37.75em) {
+  .testimonials {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
