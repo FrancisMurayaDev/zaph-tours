@@ -1,10 +1,13 @@
 import Video from "../../../public/cheetah-video.mp4";
 import "./Home.css"
 import { Fragment } from "react";
+import SectionHeader from "../../Components/SectionHeader/SectionHeader";
+
 function Home() {
   return (
     <Fragment>
       <HeroSection />
+      <SectionHeader h2='About Us' text="A Community of Luxury Travelers"/>
     </Fragment>
   );
 }
