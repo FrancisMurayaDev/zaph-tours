@@ -94,7 +94,13 @@
   }
 }
 
-.header-nav-list li a {
+.navigation-list {
   font-weight: 700;
   color: black;
+}
+
+.active-link {
+  color: green;
+  font-weight: 700;
+  border-bottom: 2px solid black;
 }

@@ -1,5 +1,6 @@
 import "./Header.css";
 import LogoImage from "../LogoImage/LogoImage";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -37,20 +38,27 @@ function HeaderNavBar() {
       <LogoImage />
       <nav className="header-nav">
         <ol className="header-nav-list">
-          <li>
-            <a href="">Home</a>
-          </li>
-          <li>
-            <a href="">Destination</a>
-          </li>
-          <li>
-            <a href="">Trip Types</a>
-          </li>
-          <li>
-            <a href="">Contact</a>
-          </li>
+          <NavigationLink to="" label="Home" />
+          <NavigationLink to="/destination" label="Destination" />
+          <NavigationLink to="/trip-types" label="Trip Types" />
+          <NavigationLink to="/contact" label="Contact" />
         </ol>
       </nav>
     </div>
+  );
+}
+
+function NavigationLink({ to, label }) {
+  return (
+    <li>
+      <NavLink
+        to={to}
+        className={({ isActive }) =>
+          isActive === true ? "active-link" : "navigation-list"
+        }
+      >
+        {label}
+      </NavLink>
+    </li>
   );
 }
