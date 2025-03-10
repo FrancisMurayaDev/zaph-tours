@@ -16,12 +16,12 @@ function Home() {
         text="Amenities, Attractions and Unique Features"
       />
       <FeaturedDestinationCard />
-      <SectionHeader h2={"Testimonials"} text={"Explore Success Stories"}/>
+      <SectionHeader h2={"Testimonials"} text={"Explore Success Stories"} />
 
       <div className="testimonials">
-      <TestimonialStats stats={"100+"} satisfied={"satisfied customers"}/>
-      <TestimonialStats stats={"20+"} satisfied={"companies"} />
-      <TestimonialStats stats={"100+"} satisfied={"travel trips"} />
+        <TestimonialStats stats={"100+"} satisfied={"satisfied customers"} />
+        <TestimonialStats stats={"20+"} satisfied={"companies"} />
+        <TestimonialStats stats={"100+"} satisfied={"travel trips"} />
       </div>
     </Fragment>
   );

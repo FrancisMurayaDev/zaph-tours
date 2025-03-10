@@ -132,7 +132,7 @@
   }
 }
 
-@media screen and (max-width:37.75em) {
+@media screen and (max-width: 37.75em) {
   .testimonials {
     flex-direction: column;
     gap: 2rem;
