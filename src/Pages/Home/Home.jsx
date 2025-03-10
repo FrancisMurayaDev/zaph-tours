@@ -9,6 +9,7 @@ function Home() {
       <HeroSection />
       <SectionHeader h2="About Us" text="A Community of Luxury Travelers" />
       <AboutUsDescription />
+      <SectionHeader h2="Features Destination" text="Amenities, Attractions and Unique Features" />
     </Fragment>
   );
 }

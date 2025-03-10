@@ -94,11 +94,13 @@
   align-items: center;
   justify-content: center;
   gap: 4rem;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 32.38em) {
   .about-us-ctn {
     flex-direction: column;
+    
   }
 }
 
