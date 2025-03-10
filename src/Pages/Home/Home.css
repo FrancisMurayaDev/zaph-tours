@@ -1,4 +1,3 @@
-
 .hero-section {
   position: relative;
   width: 100%;
@@ -13,8 +12,6 @@
   }
 }
 
-
-
 .background-video {
   position: absolute;
   top: 0;
@@ -23,7 +20,6 @@
   width: 100%;
   object-fit: cover;
 }
-
 
 .overlay {
   position: absolute;
@@ -53,4 +49,71 @@
 
 .hero-text span {
   color: yellow;
+}
+
+.about-us-text-container {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+}
+
+.about-us-text {
+  font-size: 2rem;
+  text-align: center;
+  font-family: inherit;
+  width: 98%;
+  margin: 2rem 0;
+  color: var(--color-black-lighter);
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 69em) {
+  .about-us-text {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 33.38em) {
+  .about-us-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 25.19) {
+  .about-us-text {
+    font-size: 1rem;
+  }
+}
+
+.about-us-ctn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+@media screen and (max-width: 32.38em) {
+  .about-us-ctn {
+    flex-direction: column;
+  }
+}
+
+.about-us-ctn img {
+  width: 30rem;
+  border: 3px solid var(--color-black-lighter);
+  border-radius: 40%;
+}
+
+.about-us-ctn a {
+  font-size: 2rem;
+  text-transform: capitalize;
+  background-color: aliceblue;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  border: 1px solid var(--color-primary);
+  border-radius: 10rem;
 }
