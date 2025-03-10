@@ -5,6 +5,7 @@ import Destination from "./Pages/Destination/Destination";
 import TripTypes from "./Pages/TripTypes/TripTypes";
 import Contact from "./Pages/Contact/Contact";
 import { Routes, Route } from "react-router-dom";
+import NewsLetter from "./Components/NewsLetter/NewsLetter";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/trip-types" element={<TripTypes />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <NewsLetter />
     </Fragment>
   );
 }

@@ -1,0 +1,100 @@
+.news-letter {
+  height: auto;
+  box-shadow: 1px -1px 5px 0px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 1px -1px 5px 0px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 1px -1px 5px 0px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px 12px 44px -9px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 12px 44px -9px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 12px 44px -9px rgba(0, 0, 0, 0.46);
+}
+
+.newsletter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+@media screen and (max-width: 68.31em) {
+  .newsletter-container {
+    gap: 2rem;
+  }
+}
+
+.newsletter-image {
+  margin-top: 3rem;
+}
+
+.newsletter-image img {
+  border-radius: 8rem;
+  border: 2px solid var(--color-primary);
+}
+
+@media screen and (max-width: 63.94em) {
+  .newsletter-image img {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 35.69em) {
+  .newsletter-image img {
+    display: none;
+  }
+}
+
+.newsletter-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.newsletter-text {
+  text-transform: capitalize;
+  font-size: 3.5rem;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+@media screen and (max-width: 64.94em) {
+  .newsletter-text {
+    font-size: 2rem;
+  }
+}
+
+.subscribe-input {
+  padding: 2rem 1rem;
+  outline: none;
+  cursor: pointer;
+  margin-right: 4rem;
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 64.94em) {
+  .subscribe-input {
+    margin-right: 1rem;
+    padding: 1rem 0.5rem;
+  }
+}
+
+.subscribe-btn {
+  border: none;
+  background-color: var(--color-secondary-light);
+  padding: 2rem 4rem;
+  color: black;
+  font-weight: 800;
+  border-radius: 15%;
+  display: inline-block;
+}
+
+@media screen and (max-width: 64.94em) {
+  .subscribe-btn {
+    padding: 1rem 2rem;
+    display: inline-block;
+  }
+}
+
+.form-container {
+}
