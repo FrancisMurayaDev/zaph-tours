@@ -1,0 +1,56 @@
+.contact-details-title {
+  text-align: center;
+  font-size: 3rem;
+  padding: 2rem 0;
+  color: var(--color-black-light);
+}
+
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 4rem;
+  flex-wrap: wrap;
+}
+
+iframe {
+  width: 100%;
+  height: 30rem;
+  border-radius: 2rem;
+  border: none;
+}
+
+@media screen and (max-width:40.5) {
+  iframe {
+    width: auto;
+  }
+}
+
+.work-social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40rem;
+  margin: 2.5rem 0;
+}
+
+.office-hours {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.socials a {
+  font-size: 3rem;
+  color: var(--color-black-light);
+  
+  
+}
