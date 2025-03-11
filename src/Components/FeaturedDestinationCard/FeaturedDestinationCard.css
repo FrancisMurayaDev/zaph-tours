@@ -37,7 +37,7 @@
   }
 }
 
-.destination-card-container img {
+.destination-card-container .destination-img {
   width: 35rem;
   object-fit: cover;
   border: 2px solid var(--color-black-lighter);

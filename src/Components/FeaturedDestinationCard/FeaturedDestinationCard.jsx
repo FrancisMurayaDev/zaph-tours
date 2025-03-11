@@ -58,7 +58,11 @@ function FeaturedDestinationCard() {
 function Destination({ imgSource, description, price }) {
   return (
     <div className="destination-card-container">
-      <img src={imgSource} alt="Features Destination" />
+      <img
+        className="destination-img"
+        src={imgSource}
+        alt="Features Destination"
+      />
       <p className="description">{description}</p>
       <p className="price">{price}</p>
     </div>
