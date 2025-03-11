@@ -1,9 +1,29 @@
+.trip-heading {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  font-size: 5rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 45.375) {
+  .trip-heading {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 25.9375) {
+  .trip-heading {
+    display: none;
+  }
+}
 .package-container {
   max-width: 120rem;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
+  margin-top: 1.5rem;
 }
 
 .trip-package {
