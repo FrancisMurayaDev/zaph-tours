@@ -1,10 +1,11 @@
 import "./NewsLetter.css";
+import NewsLetterImg from "../../assets/email.jpg"
 function NewsLetter() {
   return (
     <section className="news-letter">
       <div className="newsletter-container">
         <div className="newsletter-image">
-          <img src="../../src/assets/email.jpg" alt="Newsletter Image" />
+          <img src={NewsLetterImg} alt="Newsletter Image" />
         </div>
         <div className="newsletter-content">
           <p className="newsletter-text">
