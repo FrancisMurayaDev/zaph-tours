@@ -1,0 +1,65 @@
+.package-container {
+  max-width: 120rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.trip-package {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  width: 40rem;
+}
+
+.trip-package:hover {
+  transform: scale(1.03);
+}
+
+.trip-package img {
+  width: 100%;
+  height: 22rem;
+  object-fit: cover;
+}
+
+.package-content {
+  padding: 1.5rem;
+}
+
+.package-category {
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+  font-size: 2.5rem;
+}
+
+.category-description {
+  color: var(--color-black-light);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.categoryPrice {
+  font-weight: bold;
+  color: #28a745;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.tripBtn {
+  display: inline-block;
+  text-decoration: none;
+  background: #007bff;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.tripBtn:hover {
+  background-color: var(--color-black-light);
+}

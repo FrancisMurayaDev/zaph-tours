@@ -5,7 +5,6 @@ import SectionHeader from "../../Components/SectionHeader/SectionHeader";
 import FeaturedDestinationCard from "../../Components/FeaturedDestinationCard/FeaturedDestinationCard";
 import TestimonialStats from "../../Components/TestimonialStats/TestimonialStats";
 import SatisfiedCustomers from "../../Components/SatisfiedCustomers/SatisfiedCustomers";
-import NewsLetter from "../../Components/NewsLetter/NewsLetter";
 
 function Home() {
   return (
