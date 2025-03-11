@@ -1,4 +1,8 @@
 import "./SatisfiedCustomers.css";
+import Customer1 from "../../assets/customer1.jpg"
+import Customer2 from "../../assets/customer2.jpg"
+import Customer3 from "../../assets/customer3.jpg"
+import Customer4 from "../../assets/customer4.jpg"
 
 function SatisfiedCustomers() {
   return (
@@ -7,7 +11,7 @@ function SatisfiedCustomers() {
         quote={
           "Zaph Tours made our vacation unforgettable! The guides were friendly, knowledgeable, and ensured we had the best experience. Highly recommend!"
         }
-        imageSource={"../../src/assets/customer1.jpg"}
+        imageSource={Customer1}
         name={"John Doe"}
         position={"⭐⭐⭐⭐⭐"}
       />
@@ -16,7 +20,7 @@ function SatisfiedCustomers() {
         quote={
           "Excellent service from start to finish! The booking process was smooth, and the tour was well-organized. Will definitely travel with Zaph Tours again"
         }
-        imageSource={"../../src/assets/customer2.jpg"}
+        imageSource={Customer2}
         name={"Jane Smith"}
         position={"⭐⭐⭐⭐⭐"}
       />
@@ -25,7 +29,7 @@ function SatisfiedCustomers() {
         quote={
           "Zaph Tours exceeded my expectations! The itinerary was well-planned, the transportation was comfortable, and the team was super professional."
         }
-        imageSource={"../../src/assets/customer3.jpg"}
+        imageSource={Customer3}
         name={"Joyce Wanga"}
         position={"⭐⭐⭐⭐⭐"}
       />
@@ -34,7 +38,7 @@ function SatisfiedCustomers() {
         quote={
           "A fantastic experience! Zaph Tours took care of every detail, making our trip stress-free and enjoyable. Will be booking again soon!"
         }
-        imageSource={"../../src/assets/customer4.jpg"}
+        imageSource={Customer4}
         name={"Susan Jhones"}
         position={"⭐⭐⭐⭐⭐"}
       />
