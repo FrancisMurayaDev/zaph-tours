@@ -5,6 +5,7 @@ import SectionHeader from "../../Components/SectionHeader/SectionHeader";
 import FeaturedDestinationCard from "../../Components/FeaturedDestinationCard/FeaturedDestinationCard";
 import TestimonialStats from "../../Components/TestimonialStats/TestimonialStats";
 import SatisfiedCustomers from "../../Components/SatisfiedCustomers/SatisfiedCustomers";
+import AboutUsImg from "../../assets/about-us-img.jpg"
 
 function Home() {
   return (
@@ -55,7 +56,7 @@ function AboutUsDescription() {
         Inspiration, book unique journeys, connect with like minded members.
       </p>
       <div className="about-us-ctn">
-        <img src="../../src/assets/about-us-img.jpg" alt="safari-photo" />
+        <img src={AboutUsImg} alt="safari-photo" />
         <a href="#">join us</a>
       </div>
     </div>
