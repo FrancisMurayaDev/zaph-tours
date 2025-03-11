@@ -1,11 +1,17 @@
 import "./FeaturedDestinationCard.css";
 import React from "react";
+import MtKenya from "../../assets/mt-kenya.jpg"
+import MtRwenzori from "../../assets/mt-ruwenzori.jpg"
+import LakeNakuru from "../../assets/lake-nakuru.jpg"
+import Tsavo from "../../assets/tsavo.jpg"
+import Coastal from "../../assets/coastal-kenya.jpg"
+import NairobiPark from "../../assets/nairobi-park.jpg"
 
 function FeaturedDestinationCard() {
   return (
     <div className="destination-container">
       <Destination
-        imgSource="../../src/assets/mt-kenya.jpg"
+        imgSource={MtKenya}
         description={
           "Mt. Kenya offers a stunning and diverse landscape with glacier-capped peaks, lush rainforests, unique alpine ecosystems, and a variety of wildlife."
         }
@@ -13,7 +19,7 @@ function FeaturedDestinationCard() {
       />
 
       <Destination
-        imgSource={"../../src/assets/mt-ruwenzori.jpg"}
+        imgSource={MtRwenzori}
         description={
           "Mount Rwenzori has dramatic scenery, diverse wildlife, and rich biodiversity. "
         }
@@ -21,7 +27,7 @@ function FeaturedDestinationCard() {
       />
 
       <Destination
-        imgSource={"../../src/assets/lake-nakuru.jpg"}
+        imgSource={LakeNakuru}
         description={
           "Lake Nakuru has diverse wildlife, including flamingos, rhinos, and giraffes. The park is also a great destination for birdwatchers. "
         }
@@ -29,7 +35,7 @@ function FeaturedDestinationCard() {
       />
 
       <Destination
-        imgSource={"../../src/assets/tsavo.jpg"}
+        imgSource={Tsavo}
         description={
           "Tsavo provides the perfect safari destination if you're looking for a unique, authentic experience far from the overcrowded, more popular parks like the Masai Mara and Amboseli which is close"
         }
@@ -37,7 +43,7 @@ function FeaturedDestinationCard() {
       />
 
       <Destination
-        imgSource={"../../src/assets/coastal-kenya.jpg"}
+        imgSource={Coastal}
         description={
           "Stunning white sand beaches, pristine marine reserves with excellent diving opportunities, rich Swahili culture, historical sites like Fort Jesus in Mombasa, and diverse wildlife viewing experiences along the coastline"
         }
@@ -45,7 +51,7 @@ function FeaturedDestinationCard() {
       />
 
       <Destination
-        imgSource={"../../src/assets/nairobi-park.jpg"}
+        imgSource={NairobiPark}
         description={
           " great game viewing experience awaits wildlife lovers against the city backdrop. Common animal species include – Giraffe, leopard, zebra, buffalo, antelope, lion, black and white rhino, hippo, and crocodile."
         }
