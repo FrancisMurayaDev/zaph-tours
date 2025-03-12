@@ -18,9 +18,9 @@
   width: 35rem;
   border: 1px solid var(--color-primary);
   border-radius: 3rem;
-  box-shadow: -11px 7px 14px -9px rgba(0,0,0,0.48);
--webkit-box-shadow: -11px 7px 14px -9px rgba(0,0,0,0.48);
--moz-box-shadow: -11px 7px 14px -9px rgba(0,0,0,0.48);
+  box-shadow: -11px 7px 14px -9px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: -11px 7px 14px -9px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: -11px 7px 14px -9px rgba(0, 0, 0, 0.48);
 }
 
 .quote {

@@ -24,17 +24,17 @@ function Footer() {
           <p>Private Policy</p>
           <p>Terms and Conditions</p>
         </div>
-         <div className="socials">
-                  <a className="socials-a" href="#">
-                    <CiFacebook />
-                  </a>
-                  <a className="socials-a" href="#">
-                    <FaWhatsapp />
-                  </a>
-                  <a className="socials-a" href="#">
-                    <FaLinkedin />
-                  </a>
-                </div>
+        <div className="socials">
+          <a className="socials-a" href="#">
+            <CiFacebook />
+          </a>
+          <a className="socials-a" href="#">
+            <FaWhatsapp />
+          </a>
+          <a className="socials-a" href="#">
+            <FaLinkedin />
+          </a>
+        </div>
         <div className="offices">
           <h3 className="footer-sub-head">Offices</h3>
           <p>Nairobi, Kenya.</p>
