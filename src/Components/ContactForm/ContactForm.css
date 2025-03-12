@@ -1,4 +1,3 @@
-
 .contact-title {
   text-align: center;
   color: var(--color-black-light);
@@ -12,7 +11,8 @@
   margin: 2rem;
 }
 
-.form-input, .text-area {
+.form-input,
+.text-area {
   width: 100%;
   padding: 10px;
   margin: 10px 0;

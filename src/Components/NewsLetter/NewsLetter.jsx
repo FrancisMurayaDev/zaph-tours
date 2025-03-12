@@ -1,5 +1,5 @@
 import "./NewsLetter.css";
-import NewsLetterImg from "../../assets/email.jpg"
+import NewsLetterImg from "../../assets/email.jpg";
 function NewsLetter() {
   return (
     <section className="news-letter">

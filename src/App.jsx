@@ -6,6 +6,7 @@ import TripTypes from "./Pages/TripTypes/TripTypes";
 import Contact from "./Pages/Contact/Contact";
 import { Routes, Route } from "react-router-dom";
 import NewsLetter from "./Components/NewsLetter/NewsLetter";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <NewsLetter />
+      <Footer />
     </Fragment>
   );
 }

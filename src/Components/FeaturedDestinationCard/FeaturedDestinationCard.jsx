@@ -1,11 +1,11 @@
 import "./FeaturedDestinationCard.css";
 import React from "react";
-import MtKenya from "../../assets/mt-kenya.jpg"
-import MtRwenzori from "../../assets/mt-ruwenzori.jpg"
-import LakeNakuru from "../../assets/lake-nakuru.jpg"
-import Tsavo from "../../assets/tsavo.jpg"
-import Coastal from "../../assets/coastal-kenya.jpg"
-import NairobiPark from "../../assets/nairobi-park.jpg"
+import MtKenya from "../../assets/mt-kenya.jpg";
+import MtRwenzori from "../../assets/mt-ruwenzori.jpg";
+import LakeNakuru from "../../assets/lake-nakuru.jpg";
+import Tsavo from "../../assets/tsavo.jpg";
+import Coastal from "../../assets/coastal-kenya.jpg";
+import NairobiPark from "../../assets/nairobi-park.jpg";
 
 function FeaturedDestinationCard() {
   return (

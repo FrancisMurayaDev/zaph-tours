@@ -19,7 +19,7 @@ iframe {
   border: none;
 }
 
-@media screen and (max-width:40.5) {
+@media screen and (max-width: 40.5) {
   iframe {
     width: auto;
   }
@@ -51,6 +51,4 @@ iframe {
 .socials a {
   font-size: 3rem;
   color: var(--color-black-light);
-  
-  
 }

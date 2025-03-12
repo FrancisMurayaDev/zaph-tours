@@ -1,10 +1,10 @@
 import "./Destination.css";
-import MountainEscape from "../../assets/mountain-escape.jpg"
-import GameDrives from "../../assets/game-drives.jpg"
-import BushMeals from "../../assets/bush-meals.jpg"
-import Horse from "../../assets/horse-ridding.jpg"
-import Bird from "../../assets/bird.jpg"
-import Safaris from "../../assets/safaris.jpg"
+import MountainEscape from "../../assets/mountain-escape.jpg";
+import GameDrives from "../../assets/game-drives.jpg";
+import BushMeals from "../../assets/bush-meals.jpg";
+import Horse from "../../assets/horse-ridding.jpg";
+import Bird from "../../assets/bird.jpg";
+import Safaris from "../../assets/safaris.jpg";
 
 function Destination() {
   return (

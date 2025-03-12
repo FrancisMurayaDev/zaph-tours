@@ -1,8 +1,8 @@
 import "./SatisfiedCustomers.css";
-import Customer1 from "../../assets/customer1.jpg"
-import Customer2 from "../../assets/customer2.jpg"
-import Customer3 from "../../assets/customer3.jpg"
-import Customer4 from "../../assets/customer4.jpg"
+import Customer1 from "../../assets/customer1.jpg";
+import Customer2 from "../../assets/customer2.jpg";
+import Customer3 from "../../assets/customer3.jpg";
+import Customer4 from "../../assets/customer4.jpg";
 
 function SatisfiedCustomers() {
   return (

@@ -1,0 +1,44 @@
+.footer-section {
+  padding: 2rem;
+  background-color: aliceblue;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgb(43, 55, 43);
+  min-height: 30vh;
+  border-radius: 8px;
+}
+
+.footer-sub-head {
+  color: white;
+  font-weight: 700;
+  padding: 1rem 0;
+  font-size: 3rem;
+}
+
+.top-destinations p,
+.company-footer p,
+.offices p {
+  color: white;
+  font-size: 1.6rem;
+}
+
+.top-destinations {
+  padding-left: 2rem;
+}
+
+.offices {
+  padding-right: 2rem;
+}
+
+.copy-right {
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 4px 8px 11px -7px rgba(208, 111, 111, 0.75);
+  -webkit-box-shadow: 4px 8px 11px -7px rgba(208, 111, 111, 0.75);
+  -moz-box-shadow: 4px 8px 11px -7px rgba(208, 111, 111, 0.75);
+}
