@@ -6,7 +6,7 @@ import "./Contact.css";
 
 function Contact() {
   return (
-    <div>
+    <>
       <ContactForm />
       <h3 className="contact-details-title">Our Contact Details</h3>
       <ContactDetails />
@@ -14,7 +14,7 @@ function Contact() {
       <Map />
 
       <ContactFooter />
-    </div>
+    </>
   );
 }
 

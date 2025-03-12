@@ -10,6 +10,7 @@
   justify-content: space-around;
   padding-bottom: 4rem;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 iframe {
@@ -30,8 +31,9 @@ iframe {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 40rem;
+  gap: 10rem;
   margin: 2.5rem 0;
+  flex-wrap: wrap;
 }
 
 .office-hours {
@@ -39,6 +41,7 @@ iframe {
   align-items: center;
   flex-direction: column;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .socials {
@@ -46,6 +49,7 @@ iframe {
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .socials a {

@@ -8,9 +8,9 @@ import Safaris from "../../assets/safaris.jpg";
 
 function Destination() {
   return (
-    <div>
+    <>
       <DestinationSection />
-    </div>
+    </>
   );
 }
 
