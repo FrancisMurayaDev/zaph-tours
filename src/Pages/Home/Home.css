@@ -47,8 +47,15 @@
   font-weight: bold;
 }
 
+
 .hero-text span {
   color: yellow;
+}
+
+@media screen and (max-width:39.5625em) {
+  .hero-text h2 {
+    font-size: 2.5rem;
+  }
 }
 
 .about-us-text-container {
