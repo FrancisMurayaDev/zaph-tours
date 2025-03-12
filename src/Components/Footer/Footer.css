@@ -42,3 +42,16 @@
   -webkit-box-shadow: 4px 8px 11px -7px rgba(208, 111, 111, 0.75);
   -moz-box-shadow: 4px 8px 11px -7px rgba(208, 111, 111, 0.75);
 }
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.socials-a {
+  font-size: 3rem;
+  color: greenyellow;
+}
+
